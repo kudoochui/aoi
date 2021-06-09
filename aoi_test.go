@@ -1,7 +1,10 @@
-# aoi
-Area-Of-Interest (AOI) 十字链表法和灯塔法
+package aoi
 
-```go
+import (
+	"fmt"
+	"testing"
+)
+
 type Stub struct {
 	aoiNode		*NodeAOI
 }
@@ -50,4 +53,3 @@ func TestAOI(t *testing.T)  {
 	a.MoveAOI(n6,4,4)
 	a.Print()
 }
-```
